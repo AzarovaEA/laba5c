@@ -80,6 +80,12 @@
 		<Unit filename="D:/programming/laba5c/libs/string_.h">
 			<Option target="laba5c"/>
 		</Unit>
+		<Unit filename="D:/programming/laba5c/libs/tasks/task1.h">
+			<Option target="laba5c"/>
+		</Unit>
+		<Unit filename="D:/programming/laba5c/libs/tasks/task2.h">
+			<Option target="laba5c"/>
+		</Unit>
 		<Unit filename="D:/programming/laba5c/main.c">
 			<Option target="laba5c"/>
 		</Unit>

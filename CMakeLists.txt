@@ -3,4 +3,4 @@ project(laba5c C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(laba5c main.c libs/string_.h libs/string_.c)
+add_executable(laba5c main.c libs/string_.h libs/string_.c libs/tasks/task1.h libs/tasks/task2.h)
