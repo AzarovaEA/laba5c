@@ -2,6 +2,9 @@
 #define LABA5C_STRING__H
 
 #include <stdlib.h>
+#include <ctype.h>
+#include <assert.h>
+
 
 /* Возвращает количество символов в строке начиная с begin
 (не считая ноль-символ) */
