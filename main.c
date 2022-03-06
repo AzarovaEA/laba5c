@@ -93,6 +93,7 @@ void test() {
 }
 void test_tasks(){
     test_1();
+    test2();
 }
 
 int main() {
