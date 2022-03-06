@@ -5,6 +5,8 @@
 #include <ctype.h>
 #include <assert.h>
 #include <memory.h>
+#include <stdio.h>
+#include <string.h>
 
 /* Возвращает количество символов в строке начиная с begin
 (не считая ноль-символ) */
@@ -60,5 +62,9 @@ char *copyIf(char *beginSource, const char *endSource,
 по окончанию работы функции */
 char *copyIfReverse(char *rbeginSource, const char *rendSource,
                     char *beginDestination, int (*f)(int));
+
+void assertString(const char *expected, char *got,
+                  char const *fileName, char const *funcName,
+                  int line);
 
 #endif

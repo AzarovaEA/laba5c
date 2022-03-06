@@ -128,12 +128,25 @@ laba5c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba5c.dir\build.make CMakeFiles/laba5c.dir/build
 .PHONY : laba5c/fast
 
+#=============================================================================
+# Target rules for targets named str
+
+# Build rule for target.
+str: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 str
+.PHONY : str
+
+# fast build rule for target.
+str/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/build
+.PHONY : str/fast
+
 libs/string_.obj: libs/string_.c.obj
 .PHONY : libs/string_.obj
 
 # target to build an object file
 libs/string_.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba5c.dir\build.make CMakeFiles/laba5c.dir/libs/string_.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/libs/string_.c.obj
 .PHONY : libs/string_.c.obj
 
 libs/string_.i: libs/string_.c.i
@@ -141,7 +154,7 @@ libs/string_.i: libs/string_.c.i
 
 # target to preprocess a source file
 libs/string_.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba5c.dir\build.make CMakeFiles/laba5c.dir/libs/string_.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/libs/string_.c.i
 .PHONY : libs/string_.c.i
 
 libs/string_.s: libs/string_.c.s
@@ -149,7 +162,7 @@ libs/string_.s: libs/string_.c.s
 
 # target to generate assembly for a file
 libs/string_.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba5c.dir\build.make CMakeFiles/laba5c.dir/libs/string_.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/libs/string_.c.s
 .PHONY : libs/string_.c.s
 
 main.obj: main.c.obj
@@ -185,6 +198,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... laba5c
+	@echo ... str
 	@echo ... libs/string_.obj
 	@echo ... libs/string_.i
 	@echo ... libs/string_.s

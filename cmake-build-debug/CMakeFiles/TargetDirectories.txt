@@ -1,3 +1,4 @@
 D:/programming/laba5c/cmake-build-debug/CMakeFiles/laba5c.dir
 D:/programming/laba5c/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/programming/laba5c/cmake-build-debug/CMakeFiles/str.dir
 D:/programming/laba5c/cmake-build-debug/CMakeFiles/rebuild_cache.dir

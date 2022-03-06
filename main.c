@@ -1,4 +1,6 @@
 #include "libs/string_.h"
+#include "libs/tasks/task1.h"
+#include "libs/tasks/task2.h"
 
 void test_findNonSpace_firstCharacterIsNotWhitespace() {
     char testWord[] = "Good";
@@ -77,7 +79,7 @@ void test_findSpaceReverse_spaceCharacterInTheMiddle() {
     assert(findSpaceReverse(&testWord[size - 1], testWord) == testWord);
 }
 
-void  test_findSpaceReverse() {
+void test_findSpaceReverse() {
     test_findSpaceReverse_firstCharacterInTheWordSpace();
     test_findSpaceReverse_lastCharacterInTheWordSpace();
     test_findSpaceReverse_spaceCharacterInTheMiddle();
@@ -89,9 +91,13 @@ void test() {
     test_findNonSpaceReverse();
     test_findSpaceReverse();
 }
+void test_tasks(){
+    test_1();
+}
 
 int main() {
     test();
+    test_tasks();
 
     return 0;
 }

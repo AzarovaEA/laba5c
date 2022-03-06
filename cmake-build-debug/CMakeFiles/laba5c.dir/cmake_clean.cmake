@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/laba5c.dir/libs/string_.c.obj"
   "CMakeFiles/laba5c.dir/main.c.obj"
   "laba5c.exe"
   "laba5c.exe.manifest"

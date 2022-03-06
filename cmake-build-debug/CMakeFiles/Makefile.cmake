@@ -47,4 +47,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/laba5c.dir/DependInfo.cmake"
+  "CMakeFiles/str.dir/DependInfo.cmake"
   )
