@@ -12,7 +12,7 @@ add_library(str libs/string_.h libs/string_.c
         libs/tasks/task1.h
         libs/tasks/task2.h
         libs/tasks/task3.h
-#        libs/tasks/task4.h
+        libs/tasks/task4.h
 #        libs/tasks/task5.h
 #        libs/tasks/task6.h
 #        libs/tasks/task7.h

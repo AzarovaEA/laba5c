@@ -125,6 +125,9 @@
 		<Unit filename="D:/programming/laba5c/libs/tasks/task3.h">
 			<Option target="str"/>
 		</Unit>
+		<Unit filename="D:/programming/laba5c/libs/tasks/task4.h">
+			<Option target="str"/>
+		</Unit>
 		<Unit filename="D:/programming/laba5c/main.c">
 			<Option target="laba5c"/>
 		</Unit>

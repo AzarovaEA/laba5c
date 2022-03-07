@@ -2,6 +2,7 @@
 #include "libs/tasks/task1.h"
 #include "libs/tasks/task2.h"
 #include "libs/tasks/task3.h"
+#include "libs/tasks/task4.h"
 
 void test_findNonSpace_firstCharacterIsNotWhitespace() {
     char testWord[] = "Good";
@@ -96,6 +97,7 @@ void test_tasks(){
     test_1();
     test_2();
     test_3();
+    test_4();
 }
 
 int main() {

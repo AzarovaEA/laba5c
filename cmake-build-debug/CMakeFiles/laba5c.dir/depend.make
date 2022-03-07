@@ -6,4 +6,5 @@ CMakeFiles/laba5c.dir/main.c.obj: \
  ../libs/tasks/task1.h \
  ../libs/tasks/task2.h \
  ../libs/tasks/task3.h \
+ ../libs/tasks/task4.h \
  ../main.c
