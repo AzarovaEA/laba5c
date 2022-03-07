@@ -63,7 +63,7 @@ void test_removeExtraSpaces_onlySpaces() {
     ASSERT_STRING("     ", s);
 }
 
-void test2() {
+void test_2() {
     test_removeExtraSpaces_thereAreBothRepetitiveAndNonRepetitive();
     test_removeExtraSpaces_aFewSpacesAtTheEnd();
     test_removeExtraSpaces_aFewSpacesAtTheBeginning();

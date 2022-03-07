@@ -7,6 +7,16 @@
 #include <memory.h>
 #include <stdio.h>
 #include <string.h>
+#include <limits.h>
+#include <stdbool.h>
+
+typedef struct WordDescriptor {
+    char *begin; // позиция начала слова
+    char *end; // позиция первого символа, после последнего символа слова
+} WordDescriptor;
+
+# define MAX_STRING_SIZE 100
+char stringBuffer[MAX_STRING_SIZE + 1];
 
 /* Возвращает количество символов в строке начиная с begin
 (не считая ноль-символ) */
@@ -66,6 +76,5 @@ char *copyIfReverse(char *rbeginSource, const char *rendSource,
 void assertString(const char *expected, char *got,
                   char const *fileName, char const *funcName,
                   int line);
-
 
 #endif
