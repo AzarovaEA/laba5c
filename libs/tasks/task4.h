@@ -5,6 +5,7 @@
 
 #include "../string_.h"
 
+// Заменяет каждую цифру вв строке s соответствующим ей числом пробелов
 void replacesADigitWithAnEqualNumberOfSpaces(char *s) {
     char *copyString = s;
     char *endBuffer = copy(copyString, getEndOfString(copyString), stringBuffer);
